@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.bg-color {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    355deg,
+    #041b15 0,
+    #031b17 3.33%,
+    #011b19 6.67%,
+    #011b1b 10%,
+    #001b1d 13.33%,
+    #001b1e 16.67%,
+    #011a20 20%,
+    #021a21 23.33%,
+    #031a22 26.67%,
+    #051923 30%,
+    #081923 33.33%,
+    #0b1824 36.67%,
+    #0e1824 40%,
+    #111724 43.33%,
+    #131724 46.67%,
+    #161623 50%,
+    #181522 53.33%,
+    #1b1521 56.67%,
+    #1d1420 60%,
+    #1e141f 63.33%,
+    #20131d 66.67%,
+    #21131b 70%,
+    #22121a 73.33%,
+    #231218 76.67%,
+    #241216 80%,
+    #241214 83.33%,
+    #241212 86.67%,
+    #241310 90%,
+    #24130e 93.33%,
+    #23130c 96.67%,
+    #22140a 100%
+  );
+}
+
+img {
+  width: 30px;
+}
+
+.bg-color,
+.items,
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  border: 1px solid rgb(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+  border-top: transparent;
+  border-right: transparent;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  transition: 0.1s;
+  overflow: hidden;
+}
+
+.icon:hover {
+  transform: translateY(-30px);
+}
